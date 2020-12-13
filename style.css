@@ -1,0 +1,35 @@
+/* todo webpage */
+
+body {
+  background-color: grey;
+  font-family: Arial;
+}
+button {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}      
+table {
+  width: 100%;
+}
+caption {
+  font-size: 25px;
+  font-weight: 700;
+}
+td {
+  border-top: 1px solid black;
+}
+#add-todo-container {
+  text-align: center;
+}
+#button-container {
+  text-align: center;
+}
+.complete {
+  background-color: lightgrey;
+  display: none;
+}

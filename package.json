@@ -1,28 +1,19 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "12.x"
-  },
+  "name": "js2doapp",
+  "version": "1.0.0",
+  "description": "for heroku app",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "node test.js"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattskov/todopage"
+    "url": "git+https://github.com/mattskov/todopage.git"
   },
-  "keywords": [
-    "node",
-    "heroku"
-  ],
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattskov/todopage/issues"
+  },
+  "homepage": "https://github.com/mattskov/todopage#readme"
 }
